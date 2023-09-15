@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,p{
 .paragraph__common{
     font-size: 16px;
     font-weight: 300;
-    line-height: 140%;
+    line-height: 187%;
     color:rgba(32, 50, 57, 0.55);
 }
 .title{
@@ -191,8 +191,76 @@ background-color: #EEEDDE;
 
 
 
-/* <!-- =============== Navbar Start CSS ==================== --> */
-/* <!-- =============== Navbar End CSS ====================== --> */
+/* <!-- =============== Details Start CSS ==================== --> */
+#detail{
+    padding: 100px 0;
+}
+.detail__title{
+    height: 108px;
+    width: 533px;
+}
+.detail__wrapper--box{
+    display: flex;
+    column-gap: 133px;
+}
+.detail__box{
+    height: 300px;
+    width: 300px;
+    padding: 20px 33px;
+    transition: all linear .3s;
+    margin-top: 64px;
+}
+.detail__box:hover{
+    border: solid 1px #203239;
+    border-radius: 10px;
+}
+.detail__box--heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    position: relative;
+}
+.detail__box--heading::after{
+    width: 8px;
+    height: 30px;
+    border-radius: 5px;
+    background: #FF7527 ;
+    content: "";
+    left: -25px;
+    position: absolute;
+    top: -8px;
+}
+
+.detail__box--right{
+    color: #FF7527;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+}
+.detail__box--right::after{
+    content: "";
+    position: absolute;
+    background-color: #203239;
+    left: 0;
+    right: 30px;
+    height: 100%;
+}
+.detail__box--btn a{
+    color: #203239;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 51px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+.detail__box--btn i{
+    padding-left: 8px;
+}
+
+
+/* <!-- =============== Details End CSS ====================== --> */
 
 
 
