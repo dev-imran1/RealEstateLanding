@@ -264,10 +264,141 @@ background-color: #EEEDDE;
 
 
 
+/* <!-- =============== Favorit Start CSS ==================== --> */
+#favorit{
+    padding: 68px 0;
+    background: #EEEDDE;
+}
+.favorite__title{
+    margin-bottom: 90px;
+}
+.favorite__title h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    margin-bottom: 8px;
+}
+.favorit__wrapper{
+    display: flex;
+    column-gap: 64px;
+}
+.favorit__wrapper--left{
+    width: 45%;
+}
+.favorit__wrapper--right{
+    width: 55%;
+}
+.favorit__wrapper--left img{
+    display: inline-block;
+}
+.favorit__wrapper--right .title{
+    padding-bottom: 24px !important;
+}
+/* .favorit__wrapper--btn{
+    column-gap: 48px;
+} */
+.f__btn a{
+    padding: 15px 47px ;
+    border:  solid 2px #203239;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px;
+    transition: all linear .3s;
+}
+.f__btn a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.f__btn i{
+    padding-right: 12px;
+}
+/* <!-- =============== Favorit End CSS ====================== --> */
+
+
+
+/* <!-- =============== Auditor Start CSS ==================== --> */
+#auditor{
+    padding: 68px 0;
+}
+.auditor__title{
+    margin-top: 30px;
+}
+.auditor__title h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FF7527;
+    margin-bottom: 8px;
+}
+.auritor__heading{
+    display: flex;
+    justify-content: space-between;
+}
+.auditor__slider a i{
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: #c7c1c1;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.auditor__slider:hover{
+
+    background-color:#7d7878 ;
+}
+
+.auditor__slider a i{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.auditor__wrapper{
+    display: flex;
+    column-gap: 49px;
+}
+.auditor__box{
+    height: 604px;
+    width: 357px;
+    margin-top: 64px;
+}
+
+.auditor__box--content h5{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+/* <!-- =============== Auditor End CSS ====================== --> */
+
+/* <!-- =============== Contact Start CSS ==================== --> */
+#contact{
+    padding: 48px 0;
+    background-color: #EEEDDE;
+}
+.contact__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    margin-bottom: 68px;
+}
+.contact__part--left{
+    height: 178px;
+    width: 613px;
+}
+/* <!-- =============== Contact End CSS ====================== --> */
+
 /* <!-- =============== Navbar Start CSS ==================== --> */
+
 /* <!-- =============== Navbar End CSS ====================== --> */
 
-
+/* <!-- =============== Navbar Start CSS ==================== --> */
+/* <!-- =============== Navbar End CSS ====================== --> */
 
 /* <!-- =============== Navbar Start CSS ==================== --> */
 /* <!-- =============== Navbar End CSS ====================== --> */
