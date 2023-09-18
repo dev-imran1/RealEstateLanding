@@ -381,20 +381,87 @@ background-color: #EEEDDE;
     padding: 48px 0;
     background-color: #EEEDDE;
 }
-.contact__wrapper{
+.marge{
     display: flex;
-    justify-content: space-between;
-    margin-top: 48px;
-    margin-bottom: 68px;
 }
-.contact__part--left{
+.content__wrapper{
+    display: flex;
+    column-gap: 117px;
+}
+.content__wrapper--left{
+    height: 295px;
+    width: 650px;
+
+}
+.content__wrapper--box{
     height: 178px;
-    width: 613px;
+    width: 234px;
+    display: flex;
+    column-gap: 48px;
 }
+.content__left--part1{
+    padding: 24px;
+    display: flex;
+    column-gap: 22px;
+    margin-top: 63px;
+    border: solid 1px #FF7527;
+    border-radius: 10px;
+}
+.content__left--part1 a{
+    font-weight: 600;
+    background: rgba(255, 117, 39, 0.20);
+    margin: 0 auto;
+    font-size: 28px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    font-weight: 600;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.content__wrapper--box a:hover{
+    background: rgba(255, 117, 39, 0.80);
+}
+.content__wrapper--right{
+    height: 245px;
+    width: 400px;
+}
+.content__right{
+    display: flex;
+    column-gap: 32px;
+    margin-top: 39px;
+}
+.content__right img{
+    object-fit: contain;
+}
+
 /* <!-- =============== Contact End CSS ====================== --> */
 
 /* <!-- =============== Navbar Start CSS ==================== --> */
-
+#footer{
+    background-color: #000;
+    padding: 31px 0;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left{
+    width: 10%;
+}
+.footer__left img{
+    color: #fff;
+}
+.footer__right{
+    width: 30%;
+    color: #fff;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    column-gap: 64px;
+}
 /* <!-- =============== Navbar End CSS ====================== --> */
 
 /* <!-- =============== Navbar Start CSS ==================== --> */
