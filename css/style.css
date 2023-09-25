@@ -391,38 +391,42 @@ background-color: #EEEDDE;
 .content__wrapper--left{
     height: 295px;
     width: 650px;
-
 }
 .content__wrapper--box{
-    height: 178px;
     width: 234px;
     display: flex;
     column-gap: 48px;
 }
 .content__left--part1{
-    padding: 24px;
     display: flex;
+    justify-content: space-between;
+    padding: 24px;
     column-gap: 22px;
     margin-top: 63px;
     border: solid 1px #FF7527;
     border-radius: 10px;
+
 }
-.content__left--part1 a{
-    font-weight: 600;
-    background: rgba(255, 117, 39, 0.20);
-    margin: 0 auto;
-    font-size: 28px;
-    border-radius: 10px;
+
+.box__content a{
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 12px;
     text-transform: capitalize;
-    transition: all linear .3s;
-    font-weight: 600;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    color: #000;
+    border: 2px solid black;
+    padding-top: 10px;
+    display: inline-block;
+    transition: all linear 0.3s;
+    margin-top: 15px;
 }
-.content__wrapper--box a:hover{
+.box__content a:hover{
     background: rgba(255, 117, 39, 0.80);
+}
+
+.box__content--list{
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 .content__wrapper--right{
     height: 245px;
@@ -436,6 +440,7 @@ background-color: #EEEDDE;
 .content__right img{
     object-fit: contain;
 }
+
 
 /* <!-- =============== Contact End CSS ====================== --> */
 
