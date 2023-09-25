@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5,h6,p{
 .nav__wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nav_menu{
     display: flex;
@@ -63,27 +64,23 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .nav_menu ul{
     display: flex;
-    column-gap: 100px;
+    column-gap: 80px;
 }
 
-.nav_menu ul li a{
-    font-size: 16px;
-    font-weight: 400;
+.nav_menu ul li{
+    font-size: 18px;
+    font-weight: 500;
     text-transform: capitalize;
     transition: all linear .3s;
     color: black;
 }
+.nav_menu ul li:hover{
+    font-weight: bold;
+    color: violet;
+}
 .nav_menu ul li a i{
     column-gap: 5px;
 }
-.nav_menu ul li a:hover{
-    font-weight: bold;
-}
-/* .nav_menu ul li a::after :hover{
-    width:5px;
-    height: 2px;
-    background-color: red;
-} */
 .nav__btn{
     background-color: black;
     padding: 13px 40px;
