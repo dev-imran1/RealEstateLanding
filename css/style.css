@@ -200,7 +200,6 @@ background-color: #EEEDDE;
     column-gap: 133px;
 }
 .detail__box{
-    height: 300px;
     width: 300px;
     padding: 20px 33px;
     transition: all linear .3s;
