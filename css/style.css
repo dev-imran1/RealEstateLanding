@@ -22,7 +22,6 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0 auto;
 }
 
-
 /* <!-- =============== Common Start CSS ==================== --> */
 .paragraph__common{
     font-size: 16px;
@@ -422,6 +421,7 @@ background-color: #EEEDDE;
 }
 .box__content a:hover{
     background: rgba(255, 117, 39, 0.80);
+    color: #fff;
 }
 
 .box__content--list{
